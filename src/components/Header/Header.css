@@ -1,0 +1,36 @@
+.container{
+    margin: 0 auto;
+    width: 1200px35}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(59, 59, 58);
+    .header__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+
+        .header__item{
+            background: rgb(0, 0, 0);
+            margin-left: 100px;
+            color: rgb(240, 235, 235);
+            border-radius: 5px;
+            padding: 5px;
+            width: 70px;
+            height: 35px;
+            
+
+            a{
+              
+                width: 70px;
+                height: 35px;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+}
+ 
